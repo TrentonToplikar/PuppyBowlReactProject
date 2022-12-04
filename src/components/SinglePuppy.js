@@ -1,12 +1,13 @@
 import React from "react";
+import { Puppies } from "./Main";
 
 const AllPuppies = ({ pup: { name, id, breed, status, imageUrl } }) => {
   return (
     <>
-      {/* <h2>Name: {name}</h2>
+      <h2>Name: {name}</h2>
       <p>Breed: {breed}</p>
       <p> Status: {status}</p>
-      <img src={imageURL} /> */}
+      <img src="{imageURL}" />
       <div class="single-player-card">
         <div class="header-info">
           <p class="pup-title">Name: {name}</p>

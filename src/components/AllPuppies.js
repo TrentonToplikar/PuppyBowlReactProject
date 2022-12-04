@@ -1,13 +1,13 @@
 import React from "react";
+import { puppies } from "./Main";
 
 const AllPuppies = (props) => {
   console.log(props);
   return (
     <div>
       <h1>All the puppies!</h1>
-      {/* THERE IS AN ERROR IN THE MAPS FUNCTION */}
-      {props.puppies ? (
-        props.puppies.map((pup) => {
+      {puppies ? (
+        puppies.map((pup) => {
           return (
             <div key={pup.id}>
               <h2>This puppy is {pup.name}</h2>

@@ -1,8 +1,9 @@
 import React from "react";
 import AllPuppies from "./AllPuppies";
 import SinglePuppy from "./SinglePuppy";
+import Form from "./Nav.js";
 
-const puppies = [
+export const puppies = [
   {
     id: 9979,
     name: "Doggy Ruffman",
@@ -47,7 +48,8 @@ const Main = (props) => {
     <div>
       <h1>Welcome to Puppy Bowl!</h1>
       {/* renderhelpers.js copy and paste the puppies*/}
-      <AllPuppies puppy={puppies[0]} />
+      <Form />
+      <AllPuppies puppies={puppies[0]} />
       <SinglePuppy pup={puppies[1]} />
     </div>
   );
