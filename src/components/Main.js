@@ -4,40 +4,40 @@ import SinglePuppy from "./SinglePuppy";
 
 const puppies = [
   {
-    id: 2,
-    name: "Crumpet",
-    breed: "American Staffordshire Terrier",
-    status: "field",
-    imageUrl:
-      "http://r.ddmcdn.com/w_1012/s_f/o_1/cx_0/cy_0/cw_1012/ch_1518/APL/uploads/2019/12/Crumpet-PBXVI.jpg",
-    createdAt: "2021-06-15T16:21:14.103Z",
-    updatedAt: "2021-06-15T16:21:14.103Z",
-    teamId: 1,
-    cohortId: 1,
-  },
-  {
-    id: 4,
-    name: "Daphne",
-    breed: "German Shepherd",
-    status: "field",
-    imageUrl:
-      "http://r.ddmcdn.com/w_960/s_f/o_1/cx_25/cy_0/cw_960/ch_1440/APL/uploads/2020/01/Daphne-PBXVI.jpg",
-    createdAt: "2021-06-15T16:21:14.103Z",
-    updatedAt: "2021-06-15T16:21:14.103Z",
-    teamId: 2,
-    cohortId: 1,
-  },
-  {
-    id: 10,
-    name: "Kenny",
-    breed: "Golden Retriever / Boxer",
+    id: 9979,
+    name: "Doggy Ruffman",
+    breed: "",
     status: "bench",
     imageUrl:
-      "http://r.ddmcdn.com/w_1012/s_f/o_1/cx_0/cy_0/cw_1012/ch_1518/APL/uploads/2019/12/Kenny-PBXVI.jpg",
-    createdAt: "2021-06-15T16:21:14.103Z",
-    updatedAt: "2021-06-15T16:21:14.103Z",
-    teamId: 2,
-    cohortId: 1,
+      "https://learndotresources.s3.amazonaws.com/workshop/60ad725bbe74cd0004a6cba0/puppybowl-default-dog.png",
+    createdAt: "2022-12-03T23:47:05.574Z",
+    updatedAt: "2022-12-03T23:47:05.574Z",
+    teamId: 533,
+    cohortId: 283,
+  },
+  {
+    id: 9982,
+    name: "Puppers",
+    breed: "",
+    status: "bench",
+    imageUrl:
+      "https://learndotresources.s3.amazonaws.com/workshop/60ad725bbe74cd0004a6cba0/puppybowl-default-dog.png",
+    createdAt: "2022-12-04T01:51:38.299Z",
+    updatedAt: "2022-12-04T01:51:38.299Z",
+    teamId: 532,
+    cohortId: 283,
+  },
+  {
+    id: 9983,
+    name: "GoodBoy2",
+    breed: "",
+    status: "bench",
+    imageUrl:
+      "https://learndotresources.s3.amazonaws.com/workshop/60ad725bbe74cd0004a6cba0/puppybowl-default-dog.png",
+    createdAt: "2022-12-04T01:51:41.323Z",
+    updatedAt: "2022-12-04T01:51:41.323Z",
+    teamId: 532,
+    cohortId: 283,
   },
 ];
 
