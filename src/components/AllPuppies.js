@@ -5,7 +5,6 @@ const AllPuppies = (props) => {
   console.log(props);
   return (
     <div>
-      <h1>All the puppies!</h1>
       {puppies ? (
         puppies.map((pup) => {
           // return (

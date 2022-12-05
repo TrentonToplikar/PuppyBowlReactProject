@@ -46,7 +46,6 @@ const Main = (props) => {
   console.log(props);
   return (
     <div>
-      <h1>Welcome to Puppy Bowl!</h1>
       {/* renderhelpers.js copy and paste the puppies*/}
       <Form />
       <AllPuppies puppies={puppies[0]} />

@@ -18,14 +18,14 @@ export const Form = () => {
     <div id="container">
       <div id="navbar">
         <form onSubmit={handleSubmit}>
-          <label htmlFor="username">Username:</label>
+          <label htmlFor="username">Name:</label>
           <input
             type="text"
             name="username"
             value={username}
             onChange={(event) => setUsername(event.target.value)}
           />
-          <label htmlFor="password">Password:</label>
+          <label htmlFor="password">Breed:</label>
           <input
             type="text"
             name="breed"
