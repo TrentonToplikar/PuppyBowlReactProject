@@ -50,7 +50,7 @@ const Main = (props) => {
       {/* renderhelpers.js copy and paste the puppies*/}
       <Form />
       <AllPuppies puppies={puppies[0]} />
-      <SinglePuppy pup={puppies[1]} />
+      <SinglePuppy pup={puppies[0]} />
     </div>
   );
 };
