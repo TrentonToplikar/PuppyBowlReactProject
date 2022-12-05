@@ -46,7 +46,7 @@ const Main = (props) => {
   console.log(props);
   return (
     <div>
-      {/* renderhelpers.js copy and paste the puppies*/}
+      <h1> Welcome to My Puppy Emojis</h1>
       <Form />
       <AllPuppies puppies={puppies[0]} />
       <SinglePuppy pup={puppies[0]} />
