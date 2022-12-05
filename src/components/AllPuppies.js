@@ -18,7 +18,6 @@ const AllPuppies = (props) => {
               {/* <h2>Name: {pup.name}</h2>
               <p>Breed: {pup.breed}</p>
               <p> Status: {pup.status}</p> */}
-              <img src="{imageURL}" />
               <div class="single-player-card">
                 <div class="header-info">
                   <p class="pup-title">Name: {pup.name}</p>
