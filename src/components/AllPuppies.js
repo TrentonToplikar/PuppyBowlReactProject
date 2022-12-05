@@ -24,7 +24,7 @@ const AllPuppies = (props) => {
                   <p class="pup-title">Name: {pup.name}</p>
                   <p class="pup-number">ID: #{pup.id}</p>
                 </div>
-                <img src="{imageUrl}" alt="photo of {name} the puppy" />
+                <img src={pup.imageUrl} alt="photo of {name} the puppy" />
                 <button class="detail-button" data-id={pup.id}>
                   See details
                 </button>
